@@ -1,24 +1,10 @@
 baseurl = "https://superdanieldu.github.io/"
-title = "Hacking Management"
+title = "SuperDaniel's Zone"
 languageCode = "en-us"
-disqusShortname = "spf13"
+disqusShortname = "SuperDanielove"
 copyright = "Copyright (c) 2008 - 2019, Steve Francia; all rights reserved."
 MetaDataFormat = "toml"
-googleAnalytics = "UA-7131036-1"
-
+googleAnalytics = "UA-154851123-1"
 [author]
-    name = "Steve Francia"
+    name = "Daniel Du"
 
-[indexes]
-    tag = "tags"
-    topic = "topics"
-
-[privacy]
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    respectDoNotTrack = true
-    useSessionStorage = true
-  [privacy.twitter]
-    enableDNT = true
-  [privacy.youtube]
-    privacyEnhanced = true
