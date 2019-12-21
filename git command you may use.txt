@@ -1,0 +1,21 @@
+git clone https://github.com/<USERNAME>/spf13.com.git My_Website
+
+cd My_Website
+
+git submodule update --init --recursive
+
+git submodule add -f -b master https://github.com/<USERNAME>/<USERNAME>.github.io.git public
+
+baseurl = "https://<USERNAME>.github.io/"
+
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+hugo
+
+cd public
+git add .
+git commit -m "Build website"
+git push origin master
+cd ..
