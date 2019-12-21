@@ -2,7 +2,7 @@ baseurl = "https://superdanieldu.github.io/"
 title = "SuperDaniel's Zone"
 languageCode = "en-us"
 disqusShortname = "SuperDanielove"
-copyright = "Copyright (c) 2008 - 2019, Steve Francia; all rights reserved."
+copyright = "Copyright (c) 2020, Chengze(Daniel) Du."
 MetaDataFormat = "toml"
 googleAnalytics = "UA-154851123-1"
 [author]
